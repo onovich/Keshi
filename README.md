@@ -1,18 +1,39 @@
-# Keshi Studio · 芥子
+# Keshi
 
-**芥子纳须弥，一念转流光**  
-*A universe in a seed. Shaping light without a trace.*
+[简体中文](README.zh-CN.md)
 
----
+Describe a video job. Get an ffmpeg workflow.
 
-本地桌面视频工具：自然语言描述需求 → 动态表单 → 内置 ffmpeg 转码（转格式等）。  
-Electron + React + Vite，Windows 安装包双击即用，托盘常驻。
+![Keshi cover](docs/cover.png)
 
-## 快速开始
+## What it includes
+
+- Natural language.
+- Dynamic forms.
+- Desktop app.
+
+## Getting started
+
+Install dependencies and start the local version:
 
 ```bash
 npm install
-npm run dist
+npm run dev
 ```
 
-安装包输出在 `release/`。开发调试：`npm run dev` + `npm run electron`。
+The repository also provides `npm run build`、`npm run lint`.
+
+## Repository map
+
+- `src/` — Application and library source.
+- `public/` — Static public assets.
+- `index.html` — Web entry point.
+- `package.json` — Package scripts and dependencies.
+
+## Status
+
+The repository contains the implementation and project material described above. No automated tests are currently present; evaluate it by running the project in the target environment.
+
+## License
+
+No open-source license is currently included in this repository.
